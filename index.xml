@@ -5,6 +5,33 @@
         <link>https://example.com/</link>
         <description>Recent content on Example Site</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+        <language>en-us</language>
+        <lastBuildDate>Wed, 12 Jan 2022 17:18:04 +0800</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>First</title>
+        <link>https://example.com/p/first/</link>
+        <pubDate>Wed, 12 Jan 2022 17:18:04 +0800</pubDate>
+        
+        <guid>https://example.com/p/first/</guid>
+        <description>&lt;h3 id=&#34;安装windows下包管理工具-scoop&#34;&gt;安装windows下包管理工具 scoop&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;默认安装路径：&lt;code&gt;C:\Users\jiangfb\scoop&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;set-executionpolicy remotesigned -scope currentuser
+# 需科学
+iex (new-object net.webclient).downloadstring(&#39;https://get.scoop.sh&#39;)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;安装hugo&#34;&gt;安装hugo&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;默认安装路径：&lt;code&gt;C:\Users\jiangfb\scoop\shims\hugo.exe&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;最好科学
+scoop install hugo-extended
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;安装go&#34;&gt;安装go&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;默认安装路径：&lt;code&gt;C:\Users\jiangfb\scoop\apps\go&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;scoop install go@1.16.5
+&lt;/code&gt;&lt;/pre&gt;</description>
+        </item>
+        
     </channel>
 </rss>
